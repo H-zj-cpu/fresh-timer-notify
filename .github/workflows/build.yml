@@ -1,7 +1,7 @@
 name: Build APK
 concurrency:
   group: build-apk
-  cancel-in-progress: true
+  cancel-in-progress:True
 on:
   push:
     branches: [ main ]
